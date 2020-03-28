@@ -12,4 +12,9 @@ import problem1.node.TreeNode;
 public class MyBinarySearchTree {
     TreeNode root;
     int countOfNodesWithoutLeftChild;
+
+    public void insert(int data) {
+
+    }
+
 }

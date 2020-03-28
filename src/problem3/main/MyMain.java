@@ -30,6 +30,7 @@ public class MyMain {
             nameOfStudent = scanner.nextLine();
             System.out.print("Roll Number of student: ");
             rollNumberOfStudent = scanner.nextInt();
+            scanner.nextLine();
 
             objectOfMyPriorityQueue.enqueue(new Student(nameOfStudent, rollNumberOfStudent));
 

@@ -36,6 +36,7 @@ public class MyMain {
 
         }
 
+        System.out.println();
         System.out.println("Students in the order of their increasing roll numbers: ");
         objectOfMyPriorityQueue.print();
     }

@@ -10,4 +10,5 @@ import problem3.student.Student;
 
 public class Node {
     private Student data;
+    private Node next;
 }

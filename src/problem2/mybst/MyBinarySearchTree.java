@@ -7,4 +7,18 @@ import java.util.Queue;
 public class MyBinarySearchTree {
     static Queue<TreeNode> queue;
 
+    public TreeNode insert(TreeNode root, int x) {
+
+        if (root == null)
+            return new TreeNode(x);
+
+        else if (x > root.getData())
+            root.setRight(insert(root.getRight(), x));
+
+        else
+            root.setLeft(insert(root.getLeft(), x));
+
+        return root;
+
+    }
 }

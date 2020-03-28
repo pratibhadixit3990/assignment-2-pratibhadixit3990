@@ -15,6 +15,14 @@ public class Traversal {
         System.out.print(node.getData() + " ");
     }
 
-    public void printPreorder() {
+    public void printPreorder(TreeNode node) {
+        if (node == null)
+            return;
+
+        System.out.print(node.getData() + " ");
+
+        printPreorder(node.getLeft());
+
+        printPreorder(node.getRight());
     }
 }

@@ -7,6 +7,7 @@
 package problem2.main;
 
 import problem2.mybst.MyBinarySearchTree;
+import problem2.node.TreeNode;
 import problem2.traversing.Traversal;
 
 import java.util.Scanner;
@@ -19,5 +20,12 @@ public class MyMain {
 
         Traversal objectOfTraversal = new Traversal();
         MyBinarySearchTree objectOfMyBinarySearchTree = new MyBinarySearchTree();
+
+        System.out.println("How many total nodes you want to enter in the Tree: ");
+        int totalNodesToBeEntered = scanner.nextInt();
+
+        TreeNode objectOfTreeNode = new TreeNode(totalNodesToBeEntered);
+
+
     }
 }

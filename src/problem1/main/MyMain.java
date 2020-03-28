@@ -26,5 +26,9 @@ public class MyMain {
             newNodeInserted = scanner.nextInt();
             objectOfMyBinarySearchTree.insert(newNodeInserted);
         }
+
+        System.out.println("Displaying the Left Children of the Tree: ");
+        objectOfMyBinarySearchTree.printLeftNode();
+
     }
 }

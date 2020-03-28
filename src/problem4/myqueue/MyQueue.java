@@ -21,4 +21,8 @@ public class MyQueue {
         temp = null;
         size = 0;
     }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
 }

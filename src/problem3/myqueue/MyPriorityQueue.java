@@ -21,6 +21,6 @@ public class MyPriorityQueue {
     }
 
     public void print() {
-
+        list.display();
     }
 }

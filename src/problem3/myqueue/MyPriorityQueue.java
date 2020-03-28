@@ -17,6 +17,6 @@ public class MyPriorityQueue {
     }
 
     public void dequeue() {
-
+        list.deleteFirst();
     }
 }

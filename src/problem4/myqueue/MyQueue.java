@@ -101,7 +101,7 @@ public class MyQueue {
         }
         try {
             assert temp != null;
-            System.out.println(temp.getNext().getNode().getData());
+            System.out.println("Pre-order successor of " + data + " is: " + temp.getNext().getNode().getData());
         } catch (NullPointerException ignore) {
             System.out.println("No preorder Successor found");
         }

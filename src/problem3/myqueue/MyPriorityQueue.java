@@ -6,6 +6,8 @@
  */
 package problem3.myqueue;
 
-public class MyPriorityQueue {
+import problem3.linkedlist.LinkedList;
 
+public class MyPriorityQueue {
+    LinkedList list = new LinkedList();
 }

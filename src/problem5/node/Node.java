@@ -11,4 +11,5 @@ import problem5.student.Student;
 // to define node properties
 public class Node {
     private Student data;
+    private Node next;
 }

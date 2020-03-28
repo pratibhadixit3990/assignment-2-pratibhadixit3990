@@ -28,6 +28,7 @@ public class MyMain {
 
         int newNodeToBeInsertedInTree;
 
+        System.out.println("Statr entering the nodes of the Tree: ");
         for (int i = 0; i < totalNodesOfTree; i++) {
             newNodeToBeInsertedInTree = scanner.nextInt();
 

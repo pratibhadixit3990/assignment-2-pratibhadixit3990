@@ -37,4 +37,9 @@ public class LinkedList {
         first.setNext(null);
         first = sec;
     }
+
+    public void display() {
+
+    }
+
 }

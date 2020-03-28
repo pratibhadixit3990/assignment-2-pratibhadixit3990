@@ -70,4 +70,21 @@ public class MyCircularQueue {
         return response;
     }
 
+    public int remove() {
+        int k = 0;
+        int l = 0;
+        Node head = rear.getNext();
+        while (l < size) {
+            if (head.getData().getBacklogCount() == 0) {
+                ++k;
+                head = head.getNext();
+                ++l;
+            } else {
+                head = head.getNext();
+                ++l;
+            }
+        }
+        return k;
+    }
+
 }

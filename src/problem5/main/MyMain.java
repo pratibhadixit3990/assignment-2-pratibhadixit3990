@@ -5,9 +5,12 @@
  *  Time: 7:06 PM
  */
 package problem5.main;
+
+import java.util.Scanner;
+
 //executable class
 public class MyMain {
     public static void main(String[] args) {
-
+        Scanner scanner = new Scanner(System.in);
     }
 }

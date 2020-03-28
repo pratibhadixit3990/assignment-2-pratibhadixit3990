@@ -26,6 +26,9 @@ public class MyMain {
 
         TreeNode objectOfTreeNode = new TreeNode(totalNodesToBeEntered);
 
-
+        System.out.println("Insert the nodes of the Tree: ");
+        for (int i = 0; i < totalNodesToBeEntered; i++) {
+            objectOfMyBinarySearchTree.insert(objectOfTreeNode, scanner.nextInt());
+        }
     }
 }

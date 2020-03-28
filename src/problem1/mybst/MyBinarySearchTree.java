@@ -40,4 +40,8 @@ public class MyBinarySearchTree {
         }
     }
 
+    private void LeftNode(TreeNode root) {
+
+    }
+
 }

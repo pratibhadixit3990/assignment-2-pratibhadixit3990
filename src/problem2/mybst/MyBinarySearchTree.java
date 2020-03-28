@@ -21,4 +21,12 @@ public class MyBinarySearchTree {
         return root;
 
     }
+
+    public void inorderRecursion(TreeNode root) {
+        if (root.getLeft() != null) {
+            inorderRecursion(root.getLeft());
+            System.out.println(root.getData());
+            inorderRecursion(root.getRight());
+        }
+    }
 }

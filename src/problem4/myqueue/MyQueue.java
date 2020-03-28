@@ -49,5 +49,15 @@ public class MyQueue {
     public void setTemp(Node temp) {
         this.temp = temp;
     }
+
+    public int getSize(MyQueue queue) {
+        queue.temp = queue.front;
+        while (queue.temp != null) {
+            ++size;
+            queue.temp = queue.temp.getNext();
+        }
+        queue.temp = queue.front;
+        return size;
+    }
 }
 

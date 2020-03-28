@@ -10,4 +10,9 @@ public class Node {
         node = new TreeNode(data);
         next = null;
     }
+
+    public Node(TreeNode treeNode) {
+        node = treeNode;
+        next = null;
+    }
 }

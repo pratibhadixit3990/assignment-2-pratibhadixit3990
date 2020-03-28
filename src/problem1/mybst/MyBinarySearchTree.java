@@ -54,4 +54,8 @@ public class MyBinarySearchTree {
         LeftNode(root);
     }
 
+    public void countNodesWithoutLeftChild() {
+
+    }
+
 }

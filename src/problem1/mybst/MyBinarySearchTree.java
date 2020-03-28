@@ -55,7 +55,7 @@ public class MyBinarySearchTree {
     }
 
     public void countNodesWithoutLeftChild() {
-
+        System.out.println(countOfNodesWithoutLeftChild);
     }
 
 }

@@ -59,5 +59,22 @@ public class MyQueue {
         queue.temp = queue.front;
         return size;
     }
+
+    public void queuePrint(MyQueue queue) {
+
+        while (queue.temp != null) {
+
+
+            System.out.print(queue.temp.getNode().getData() + ",");
+
+            queue.temp = queue.temp.getNext();
+
+        }
+
+        System.out.println("\b");
+
+        queue.temp = queue.front;
+
+    }
 }
 

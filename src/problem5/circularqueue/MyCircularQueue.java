@@ -20,4 +20,9 @@ public class MyCircularQueue {
     public static int getSize() {
         return size;
     }
+
+    public MyCircularQueue() {
+        rear = null;
+        size = 0;
+    }
 }

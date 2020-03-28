@@ -39,7 +39,11 @@ public class LinkedList {
     }
 
     public void display() {
-
+        var now = first;
+        while (now != null) {
+            System.out.println(now.getData());
+            now = now.getNext();
+        }
     }
 
 }

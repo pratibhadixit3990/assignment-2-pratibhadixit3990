@@ -12,4 +12,5 @@ import problem4.node.Node;
 public class MyQueue {
     private Node front;
     private Node end;
+    private Node temp;
 }

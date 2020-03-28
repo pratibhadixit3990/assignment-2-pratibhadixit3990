@@ -33,5 +33,13 @@ public class MyQueue {
     public void setFront(Node front) {
         this.front = front;
     }
+
+    public Node getEnd() {
+        return end;
+    }
+
+    public void setEnd(Node end) {
+        this.end = end;
+    }
 }
 

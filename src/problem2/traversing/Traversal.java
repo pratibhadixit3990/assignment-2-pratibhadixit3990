@@ -14,4 +14,7 @@ public class Traversal {
 
         System.out.print(node.getData() + " ");
     }
+
+    public void printPreorder() {
+    }
 }

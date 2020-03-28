@@ -30,5 +30,11 @@ public class MyMain {
         for (int i = 0; i < totalNodesToBeEntered; i++) {
             objectOfMyBinarySearchTree.insert(objectOfTreeNode, scanner.nextInt());
         }
+
+        System.out.println("Printing the Tree in Pre-Order: ");
+        objectOfTraversal.printPreorder(objectOfTreeNode);
+
+        System.out.println("Printing the Tree in Post-Order: ");
+        objectOfTraversal.printPostorder(objectOfTreeNode);
     }
 }

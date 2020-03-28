@@ -13,4 +13,5 @@ public class MyQueue {
     private Node front;
     private Node end;
     private Node temp;
+    private int size;
 }

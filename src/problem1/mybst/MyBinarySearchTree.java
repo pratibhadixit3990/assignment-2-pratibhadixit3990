@@ -14,7 +14,30 @@ public class MyBinarySearchTree {
     int countOfNodesWithoutLeftChild;
 
     public void insert(int data) {
-
+        TreeNode newTreeNodes = new TreeNode();
+        newTreeNodes.setData(data);
+        if (root == null) {
+            root = newTreeNodes;
+        } else {
+            TreeNode current = root;
+            while (true) {
+                if (data > current.getData()) {
+                    if (current.getRight() == null) {
+                        current.setRight(newTreeNodes);
+                        break;
+                    } else {
+                        current = current.getRight();
+                    }
+                } else {
+                    if (current.getLeft() == null) {
+                        current.setLeft(newTreeNodes);
+                        break;
+                    } else {
+                        current = current.getLeft();
+                    }
+                }
+            }
+        }
     }
 
 }

@@ -22,4 +22,12 @@ public class Student {
     public void setBacklogCount(int backlogCount) {
         this.backlogCount = backlogCount;
     }
+
+    public String getStudentName() {
+        return studentName;
+    }
+
+    public void setStudentName(String studentName) {
+        this.studentName = studentName;
+    }
 }

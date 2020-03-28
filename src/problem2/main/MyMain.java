@@ -33,7 +33,7 @@ public class MyMain {
 
         System.out.println("Printing the Tree in Pre-Order: ");
         objectOfTraversal.printPreorder(objectOfTreeNode);
-
+        System.out.println();
         System.out.println("Printing the Tree in Post-Order: ");
         objectOfTraversal.printPostorder(objectOfTreeNode);
     }

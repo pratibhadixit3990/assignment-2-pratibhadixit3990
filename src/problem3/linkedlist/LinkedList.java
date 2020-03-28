@@ -27,4 +27,7 @@ public class LinkedList {
             now = now.getNext();
         }
     }
+
+    public void deleteFirst() {
+    }
 }

@@ -12,4 +12,8 @@ import problem5.node.Node;
 public class MyCircularQueue {
     private static Node rear;
     private static int size;
+
+    public static Node getRear() {
+        return rear;
+    }
 }

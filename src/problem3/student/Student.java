@@ -8,4 +8,8 @@ public class Student {
         this.name = name;
         this.rollNo = rollNo;
     }
+
+    public String getName() {
+        return name;
+    }
 }

@@ -20,4 +20,8 @@ public class Node {
     public Student getData() {
         return data;
     }
+
+    public void setData(Student data) {
+        this.data = data;
+    }
 }

@@ -30,4 +30,8 @@ public class TreeNode {
     public TreeNode getRight() {
         return right;
     }
+
+    public void setRight(TreeNode right) {
+        this.right = right;
+    }
 }

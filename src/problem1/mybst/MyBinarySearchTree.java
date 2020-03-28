@@ -50,4 +50,8 @@ public class MyBinarySearchTree {
         }
     }
 
+    public void printLeftNode() {
+
+    }
+
 }

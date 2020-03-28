@@ -15,4 +15,12 @@ public class Node {
         node = treeNode;
         next = null;
     }
+
+    public Node getNext() {
+        return next;
+    }
+
+    public void setNext(Node next) {
+        this.next = next;
+    }
 }

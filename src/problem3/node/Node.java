@@ -16,4 +16,8 @@ public class Node {
         this.data = data;
         this.next = null;
     }
+
+    public Student getData() {
+        return data;
+    }
 }

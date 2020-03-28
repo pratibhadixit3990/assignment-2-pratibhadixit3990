@@ -1,5 +1,7 @@
 package problem3.linkedlist;
 
-public class LinkedList {
+import problem3.node.Node;
 
+public class LinkedList {
+    private Node first;
 }

@@ -26,4 +26,8 @@ public class TreeNode {
     public void setLeft(TreeNode left) {
         this.left = left;
     }
+
+    public TreeNode getRight() {
+        return right;
+    }
 }

@@ -41,5 +41,13 @@ public class MyQueue {
     public void setEnd(Node end) {
         this.end = end;
     }
+
+    public Node getTemp() {
+        return temp;
+    }
+
+    public void setTemp(Node temp) {
+        this.temp = temp;
+    }
 }
 

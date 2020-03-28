@@ -6,6 +6,7 @@
  */
 package problem2.main;
 
+import problem2.mybst.MyBinarySearchTree;
 import problem2.traversing.Traversal;
 
 import java.util.Scanner;
@@ -17,5 +18,6 @@ public class MyMain {
         Scanner scanner = new Scanner(System.in);
 
         Traversal objectOfTraversal = new Traversal();
+        MyBinarySearchTree objectOfMyBinarySearchTree = new MyBinarySearchTree();
     }
 }

@@ -11,4 +11,5 @@ import problem1.node.TreeNode;
 // to implement BinarySearchTree
 public class MyBinarySearchTree {
     TreeNode root;
+    int countOfNodesWithoutLeftChild;
 }

@@ -15,4 +15,8 @@ public class MyPriorityQueue {
     public void enqueue(Student student) {
         list.addLast(student);
     }
+
+    public void dequeue() {
+
+    }
 }

@@ -10,4 +10,8 @@ import problem3.linkedlist.LinkedList;
 
 public class MyPriorityQueue {
     LinkedList list = new LinkedList();
+
+    public void enqueue() {
+
+    }
 }

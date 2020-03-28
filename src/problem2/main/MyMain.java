@@ -6,6 +6,8 @@
  */
 package problem2.main;
 
+import problem2.traversing.Traversal;
+
 import java.util.Scanner;
 
 // executable class
@@ -13,5 +15,7 @@ import java.util.Scanner;
 public class MyMain {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        Traversal objectOfTraversal = new Traversal();
     }
 }

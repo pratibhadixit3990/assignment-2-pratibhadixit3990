@@ -37,6 +37,7 @@ public class MyMain {
             objectOfMyCircularQueue.enqueue(student);
         }
 
+        System.out.println();
         System.out.println("Total number of students: " + objectOfMyCircularQueue.getSize());
         System.out.println("Number of student/students having zero(0) backlogs: " + objectOfMyCircularQueue.remove());
         System.out.println("Number of student/students having atleast ont(1) or more backlogs: " + (objectOfMyCircularQueue.getSize() - objectOfMyCircularQueue.remove()));

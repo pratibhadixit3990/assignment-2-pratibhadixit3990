@@ -14,4 +14,12 @@ public class Student {
         this.studentName = studentName;
         this.backlogCount = backlogCount;
     }
+
+    public int getBacklogCount() {
+        return backlogCount;
+    }
+
+    public void setBacklogCount(int backlogCount) {
+        this.backlogCount = backlogCount;
+    }
 }

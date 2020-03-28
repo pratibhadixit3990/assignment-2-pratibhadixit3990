@@ -51,7 +51,7 @@ public class MyBinarySearchTree {
     }
 
     public void printLeftNode() {
-
+        LeftNode(root);
     }
 
 }

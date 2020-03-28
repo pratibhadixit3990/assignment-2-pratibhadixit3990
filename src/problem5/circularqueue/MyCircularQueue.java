@@ -16,4 +16,8 @@ public class MyCircularQueue {
     public static Node getRear() {
         return rear;
     }
+
+    public static int getSize() {
+        return size;
+    }
 }

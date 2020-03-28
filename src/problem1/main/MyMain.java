@@ -30,5 +30,8 @@ public class MyMain {
         System.out.println("Displaying the Left Children of the Tree: ");
         objectOfMyBinarySearchTree.printLeftNode();
 
+        System.out.println("Count of nodes not having the Left Node/Child: ");
+        objectOfMyBinarySearchTree.countNodesWithoutLeftChild();
+
     }
 }
